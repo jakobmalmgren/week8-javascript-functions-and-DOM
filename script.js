@@ -40,19 +40,49 @@
 // Tips! Här kan typeof vara bra att använda
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
-function calculateNumber(num1, num2, operator) {
-  let total;
-  if (operator === "+") {
-    total = num1 + num2;
-  } else if (operator === "-") {
-    total = num1 - num2;
-  } else if (operator === "*") {
-    total = num1 * num2;
-  } else if (operator === "/") {
-    total = num1 / num2;
-  }
+// function calculateNumber(num1, num2, operator) {
+//   let total;
+//   if (operator === "+") {
+//     total = num1 + num2;
+//   } else if (operator === "-") {
+//     total = num1 - num2;
+//   } else if (operator === "*") {
+//     total = num1 * num2;
+//   } else if (operator === "/") {
+//     total = num1 / num2;
+//   }
 
-  return total;
-}
+//   return total;
+// }
 
-console.log(calculateNumber(4, 3, "/"));
+// console.log(calculateNumber(4, 3, "/"));
+
+//kan göra de såhär med:
+
+// function calc(num1, num2, operator) {
+//   let sum;
+//   if (operator === "+") {
+//     sum = plus(num1, num2);
+//   } else if (operator === "-") {
+//     sum = minus(num1, num2);
+//   } else if (operator === "*") {
+//     sum = gånger(num1, num2);
+//   } else if (operator === "/") {
+//     sum = dela(num1, num2);
+//   }
+//   return sum;
+// }
+
+// function plus(num1, num2) {
+//   return num1 + num2;
+// }
+// function minus(num1, num2) {
+//   return num1 - num2;
+// }
+// function gånger(num1, num2) {
+//   return num1 * num2;
+// }
+// function dela(num1, num2) {
+//   return num1 / num2;
+// }
+// console.log(calc(6, 2, "*"));
